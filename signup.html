@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up Page</title>
+    <style>
+
+      h1 {
+        text-align: center;
+      }
+
+      form {
+       
+        margin: auto;
+        background-color: white;
+        padding: 20px;
+      }
+
+      input[type="text"],
+      input[type="email"],
+      input[type="password"],
+      input[type="date"],
+      input[type="tel"] {
+        width: 100%;
+        padding: 10px;
+        margin: 8px ;
+        border: 1px solid black;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        padding-left: 5px;
+        background-color: blueviolet;
+        color: white;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: black;
+      }
+
+      p {
+        text-align: center;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h1>Sign Up</h1>
+    <p>Create an account</p>
+
+    <form>
+      <input type="text" name="firstname" placeholder="First Name" >
+      <input type="text" name="lastname" placeholder="Last Name" >
+      <input type="email" name="email" placeholder="Enter Email" >
+      <input type="date" name="birthdate" placeholder="Birth Date" >
+      <input type="tel" name="phone" placeholder="Phone Number" >
+      <input type="password" name="password" placeholder="Password" >
+      <input type="password" name="confirm_password" placeholder="Confirm Password" >
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </body>
+</html>
